@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute to Mahatma Gandhi</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    img {
+      display: block;
+      max-width: 250px;
+      margin: 1rem auto;
+      border-radius: 8px;
+    }
+    .bio {
+      line-height: 1.6;
+    }
+    .quote {
+      margin: 2rem auto;
+      padding: 1rem;
+      border-left: 4px solid #2e7d32;
+      font-style: italic;
+      background-color: #fff;
+    }
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: relative;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tribute to Mahatma Gandhi</h1>
+    <p>The Father of the Nation - India</p>
+  </header>
+
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Portrait_Gandhi.jpg" alt="Mahatma Gandhi">
+
+    <section class="bio">
+      <h2>About Mahatma Gandhi</h2>
+      <p>Mahatma Gandhi, also known as Mohandas Karamchand Gandhi, was born on October 2, 1869. He was a leader of India’s non-violent independence movement against British rule. With the principle of <strong>Ahimsa</strong> (non-violence) and civil disobedience, he inspired millions and changed the world’s view on political activism.</p>
+      <p>He studied law in London and later worked in South Africa, where he experienced racial injustice. Returning to India, he led several national movements like the Salt March and Quit India Movement. His approach was grounded in peace, simplicity, and truth.</p>
+    </section>
+
+    <div class="quote">
+      “You must be the change you wish to see in the world.”
+    </div>
+
+    <section>
+      <h2>Legacy</h2>
+      <p>Gandhi’s philosophies influenced global leaders like Martin Luther King Jr., Nelson Mandela, and many others. His birthday is celebrated worldwide as the International Day of Non-Violence.</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>Created with ❤️ as a tribute by [Your Name]</p>
+  </footer>
+</body>
+</html>
